@@ -95,8 +95,8 @@ objects:
         - postgresql
         from:
           kind: ImageStreamTag
-          name: postgresql:9.5
-          namespace: openshift
+          name: ""
+          namespace: ""
       type: ImageChange
     - type: ConfigChange
 - kind: Service
